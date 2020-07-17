@@ -1,0 +1,197 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+#about h2, #clients h2, #team h2, #contact h2, #services h2{
+  color:#1c4587ff;
+}
+
+h3{
+color:#1c4587ff;
+}
+/* Navbar section */
+.beforenav{
+  background-color: #ffcf40ff;
+  height: 60px;
+}
+.navbar{
+  background-color: #1c4587ff;
+  position: absolute;
+  top:5px;
+}
+.navbar h1{
+  padding-left: 15px;
+}
+
+.navbar span{
+  padding-left: 45px;
+  color:#ffcf40ff;
+}
+.navbar-brand{
+  color:#fff;
+}
+.navbar-brand:hover  {
+    color: #fff;
+  }
+.nav-link{
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+}
+.nav-link:hover  {
+  color: #ffcf40ff ;
+  text-decoration: underline;
+}
+.navbar-toggler{
+  background-color: #ffcf40ff;
+}
+#navbarTogglerDemo02{
+  padding-right: 30px;
+}
+/* Intro section */
+.carousel-item{
+  height:500px;
+}
+.intro-content{
+  color: #1c4587ff;
+  padding: 100px;
+}
+
+.btn-intro{
+  font-family: 'Raleway', sans-serif;
+
+}
+/* About us section */
+#about{
+  padding:30px;
+  background-color:#DAE1E7;
+}
+.about-content{
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.about-img img {
+  height:370px;
+  width:370px;
+}
+#more {display: none;}
+
+/* Clients section */
+#clients{
+    padding: 30px;
+}
+.clients-content{
+  text-align: justify;
+  line-height: 2;
+  font-size: 1rem;
+}
+/* Service section */
+#services {
+  background-color:#DAE1E7;
+  padding: 30px;
+}
+
+#services .box {
+  text-align: center;
+  padding: 15px 0px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  transition: 0.4s;
+  height: 150px;
+  border-radius: 15px;
+}
+
+#services .box:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+
+}
+
+.box a{
+  color: #1c4587ff;
+}
+.faservice {
+color:#ffcf40ff;
+}
+#humStatus, #tempStatus{
+  font-size: 2rem;
+}
+
+/* Team section  */
+#team{
+  background-color: #fff;
+  padding:30px;
+}
+.team-header{
+  padding-left: 20px;
+}
+.member{
+  background-color: #1c4587ff;
+  border-radius: 15px;
+  color:#fff;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+.details{
+padding-top:5px;
+}
+.details span{
+  color:#ffcf40ff;
+  font-style: italic;
+  text-align: center;
+}
+
+.member-img{
+  width: 90px;
+  height:90px;
+  border-radius: 100%;
+  float: left;
+  padding: 10px;
+  margin-right: 10px;
+}
+.social{
+  text-align: center;
+}
+.fasocial{
+  color: #ffcf40ff;
+}
+
+/* Contact us section*/
+#contact{
+  padding: 30px;
+  background-color: #DAE1E7;
+}
+.contact-header{
+  padding-left: 20px;
+}
+
+/* Information section */
+#informations{
+  background-color:#1c4587ff;
+  padding: 30px;
+}
+.contact-info{
+  text-align: center;
+}
+.contact-info h5{
+  color:#fff;
+}
+.contact-info a, .contact-info address{
+  color: #ffcf40ff;
+}
+.facontact{
+    color: #ffcf40ff;
+}
+/* Form section */
+#form{
+    padding: 30px;
+    background-color: #DAE1E7;
+}
+/* Footer section */
+#footer{
+  padding:30px;
+  text-align: center;
+}

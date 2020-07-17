@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Web of Things</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!-- CSS Stylesheet -->
+<link rel="stylesheet" href="../static/css/styles.css">
+<!-- Font Awesome pour ls icons-->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<!-- Bootstrap Sript-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+  </head>
+  <body>
+    <!-- Navbar section -->
+<section class="colored-section" id="navbar">
+  <div class="beforenav">
+  </div>
+  <div class="contaniner-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md">
+          <h1><a class="navbar-brand" href=""><span>S4T</span> <br> Web of Things</a></h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#body">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </div>
+</section>
+
+<!-- Intro section  -->
+<section id="intro">
+  <div class="container-fluid">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="4000">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../static/img/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="intro-content">
+              <h2>Making IoT devices communicate<br/> via Web technologies</h2>
+              <div>
+                <a href="#about" class="btn btn-warning btn-get-started btn-intro">Get Started</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../static/img/2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="intro-content">
+              <h2>Making IoT devices communicate<br/> via Web technologies</h2>
+              <div>
+                <a href="#about" class="btn btn-warning btn-get-started">Get Started</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../static/img/3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="intro-content">
+              <h2>Making IoT devices communicate<br/> via Web technologies</h2>
+              <div>
+                <a href="#about" class="btn btn-warning btn-get-started">Get Started</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../static/img/4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="intro-content">
+              <h2>Making IoT devices communicate<br/> via Web technologies</h2>
+              <div>
+                <a href="#about" class="btn btn-warning btn-get-started">Get Started</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../static/img/5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="intro-content">
+              <h2>Making IoT devices communicate<br/> via Web technologies</h2>
+              <div>
+                <a href="#about" class="btn btn-warning btn-get-started">Get Started</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</section>
+<!-- About us section -->
+<section id="about" class="wow fadeInUp">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 about-img">
+          <img src="../static/img/messina-university.jpg" alt="">
+        </div>
+        <div class="col-lg-6 clients-content">
+          <h3>MDSLab, University of Messina, Italy</h3>
+          <p>Regarding Computer Science Engineering, the Mobile and Distributed Systems Laboratory (MDSLab) group conducts advanced ICT research studying parallel and distributed systems. In particular reseach topics include cloud computing, Internet of Things (IoT), ad-hoc networks, grid computing, middleware, modeling&performance evaluation, multimedia streaming, QoS management in wireless systems, RFID, security, trusted computing, sensor networks, software engineering, etc.<span id="dots">...</span><span id="more">  The MDSLab researchgroup has contributed to several research projects within the grid area: IST EUMEDGRID to create a grid infrastructure in the Mediterranean area, TRIGRID to create a grid infrastructure in Sicily to provide high computing services to the whole research community, and PI2S2 to implement a regional-distributed laboratory for virtual organisations based on grid. The University of Messina joined the FP7 European Project RESERVOIR (2007) focusing on virtualized datacenters, one of the first intitiatives in the field of cloud computing, the FP7 European Project VISIONCLOUD (2010), focused on advantage cloud storage systems, the  FP7 European Project CLOUDWAVE (2013) focusing on the dynamic deployment of cloud services, the FP7 European Project FrontierCities (2014) fousing on promoting the FIWARE technology in the field of smart modility, the H2020 European Project BEACON (2015) focusing on federated cloud networking services.
+          The University of Messina hosts one of the major grid computing nodes in the south of Italy. In addition, it established two research labs: RFIDLab, jointly with ORACLE and INTEL on the study and application of of Internet of Things (IoT) technology; and the MobiLab, jointly with HP, on mobility and opensource. Currently, it also hosts a node of Xi-Fi, the federated system of the FIWARE Cloud Platform promoted by the European Commission, and it is partner of the FIWARE Accelerator FrontierCIties, supporting SMEs for the development of applications and services in the field of smart mobility by means of the FIWARE technology.
+          In addition, the research group is involved  on many consulting activities, external collaborations, industrial research activities, with local, national and international ICT companies.</span> </p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- clients section -->
+<section id="clients" class="wow fadeInUp">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 clients-content">
+        <h3>Describe the project</h3>
+        <p>This project aims to deploy a prototype for the Web of Things (WoT),
+            specifically solving the major problem of solving the association between IoT devices and Web URLs.
+            We are already halfway considering the features provided of Felooca (exposing services through the Web).
+            The next step is to deploy a web server (or probably make use of Nginx already deployed on the boards)
+            to expose the resources sensors/actuators hosted by the IoT device through the URL made available using
+            Felooca (by adding paths on the URL like /temp, /humidity and so one). Basically, this should be some
+            frontend (html, css, javascript...) + backend (Python, Ruby...) development to have a suitable web interface
+            interacting with the file system of the boards..</p>
+      </div>
+      <div class="col-lg-6 about-img">
+        <img src="../static/img/wot.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  </section>
+<!-- Service section -->
+<section id="services">
+    <div class="container-fluid">
+      <div class="section-header">
+        <h3>Services</h3>
+        <p>Control or check the status of things here or click on each stuff...</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4">
+          <div class="box wow fadeInRight">
+            <h4 class="title"><a href="/light"> <i class="fas fa-lightbulb faservice"></i> Light</a></h4>
+            <p class="description" id="lightStatus">Current status: OFF</p>
+            <div class="form-group row">
+              <label for="selectLight" class="col-sm-5 col-form-label" style="margin-left: 100px; font-size: 14px;">Change light status</label>
+              <div class="col-sm-3">
+                <select class="form-control" id="selectLight">
+                  <option value="0">OFF</option>
+                  <option value="1">ON</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+            <h4 class="title"><a href="/humidity"><i class="fas fa-tint faservice"></i> Humidity</a></h4>
+            <p class="description" id="humStatus">...%.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="box wow fadeInLeft">
+            <h4 class="title"><a href="/temperature"><i class="fa fa-thermometer-half faservice"></i> Temperature</a></h4>
+            <p class="description" id="tempStatus"> ...°.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="https://camera-stream.testwot.iot.felooca.eu/?action=stream"/>
+  </section>
+<!-- Team section -->
+<section id="team" class="wow fadeInUp">
+
+    <div class="team-header">
+      <h3>Our Team</h3>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="member">
+          <img  class="member-img" src="../static/img/zakaria.jpg" alt="">
+          <div class="details">
+            <h6>Zakaria Benomar</h6>
+            <span>Ph.D student</span>
+            <div class="social">
+              <a href="http://mdslab.unime.it/"><i class="fas fa-user fasocial"></i></a>
+              <a href="https://www.linkedin.com/in/zakaria-benomar/"><i class="fab fa-linkedin-in fasocial"></i></a>
+              <a href="https://www.researchgate.net/profile/Zakaria_Benomar"><i class="fab fa-google-plus fasocial"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="member">
+          <img  class="member-img" src="../static/img/francesco.jpg" alt="">
+          <div class="details">
+            <h6>Francesco Longo</h6>
+            <span>Assistant Professor</span>
+            <div class="social">
+              <a href="http://mdslab.unime.it/flongo"><i class="fas fa-user fasocial"></i></a>
+              <a href=""><i class="fab fa-linkedin-in fasocial"></i></a>
+              <a href="https://www.researchgate.net/profile/Francesco_Longo2"><i class="fab fa-google-plus fasocial"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="member">
+          <img  class="member-img" src="../static/img/giovanni.jpg" alt="">
+          <div class="details">
+            <h6>Giovanni Merlino</h5>
+            <span>Assistant Professor</span>
+            <div class="social">
+              <a href="http://mdslab.unime.it/gmerlino"><i class="fas fa-user fasocial"></i></a>
+              <a href="https://www.linkedin.com/in/giovannimerlino/"><i class="fab fa-linkedin-in fasocial"></i></a>
+              <a href="https://www.researchgate.net/profile/Giovanni_Merlino2"><i class="fab fa-google-plus fasocial"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="member">
+          <img  class="member-img" src="../static/img/antonio.jpg" alt="">
+          <div class="details">
+            <h6>Antonio Puliafito</h5>
+            <span>Full Professor</span>
+            <div class="social">
+              <a href="http://mdslab.unime.it/apuliafito"><i class="fas fa-user fasocial"></i></a>
+              <a href="https://www.linkedin.com/in/antonio-puliafito-5365782/"><i class="fab fa-linkedin-in fasocial"></i></a>
+              <a href="https://www.researchgate.net/profile/Antonio_Puliafito"><i class="fab fa-google-plus fasocial"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- contact section -->
+<section id="contact" class="wow fadeInUp">
+<div class="contact-header">
+  <h3>Contact Us</h3>
+</div>
+
+<div id="form">
+<form>
+    <div class="form-row">
+  <div class="form-group col-lg-6 col-md-6">
+
+    <div class="form-row">
+      <div class="form-group col-lg-6 col-md-6">
+    <label >First name</label>
+    <input type="text" class="form-control" id="exampleInputFirstname">
+    </div>
+
+  <div class="form-group col-lg-6 col-md-6">
+    <label >Last name</label>
+    <input type="text" class="form-control" id="exampleInputLastname">
+  </div>
+  </div>
+
+<div class="form-row">
+<div class="form-group col-lg-6 col-md-6">
+ <label >Subject</label>
+<select class="form-control" id="exampleFormControlSelect1">
+  <option>Claim</option>
+  <option>Information</option>
+  <option>Recommendation</option>
+  <option>Other</option>
+  </select>
+  </div>
+  <div class="form-group col-lg-6 col-md-6">
+<label >Email address</label>
+<input type="email" class="form-control" id="exampleFormControlInputMail" placeholder="name@example.com">
+</div>
+</div>
+</div>
+
+  <div class="form-group col-lg-6 col-md-6">
+    <div class="form-group">
+      <label >Your Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+</div>
+</div>
+</div>
+
+  <button type="submit" class="btn btn-warning">Submit</button>
+</form>
+</div>
+</section>
+<!-- INFORMATIONS -->
+<section id="informations" class="wow fadeInUp">
+  <div class="row contact-info">
+
+    <div class="col-md-4">
+      <div class="contact-address">
+        <h5><i class="fas fa-map-marker-alt facontact"></i> Address</h3>
+        <address>CUS UNIME, Annunziata, Messina, Italy</address>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="contact-phone">
+        <h5><i class="fas fa-phone facontact"></i> Phone Number</h3>
+        <p><a href="tel:+39 123123123">+37 324 582 0334</a></p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="contact-email">
+        <h5><i class="fas fa-envelope-open facontact"></i> Email</h3>
+        <p><a href="mailto:zbenomar@unime.it">zbenomar@unime.it</a></p>
+      </div>
+    </div>
+</div>
+</section>
+<!-- Footer section -->
+<footer id="footer">
+  <div class="container">
+    <div class="copyright"> © Copyright <strong>Zakaria Benomar</strong>.
+    </div>
+  </div>
+</footer>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+  </body>
+</html>
